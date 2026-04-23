@@ -1,5 +1,6 @@
 # StockAlert API
 
+
 API de gestion d'alertes de stock pour une boutique en ligne.
 Une alerte est automatiquement créée quand le stock d'un produit passe sous son seuil.
 
