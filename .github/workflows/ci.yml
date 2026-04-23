@@ -3,7 +3,7 @@ name: CI/CD StockAlert
 on:
   push:
     branches: [main, staging]
-  tags:
+    tags:
       - "v*"
   pull_request:
     branches: [main]
