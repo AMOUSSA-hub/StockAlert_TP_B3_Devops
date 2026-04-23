@@ -72,7 +72,7 @@ jobs:
       - name: Builder l'image Docker
         run: |
           docker build \
-            -t ${{ secrets.DOCKER_USERNAME }}/:${{ steps.vars.outputs.tag }} .
+            -t ${{ secrets.DOCKER_USERNAME }}/tp3_devops:${{ steps.vars.outputs.tag }} .
 
       # Scan Trivy — bloque si CRITICAL détectée
       # Le push ne s'exécute PAS si Trivy échoue
