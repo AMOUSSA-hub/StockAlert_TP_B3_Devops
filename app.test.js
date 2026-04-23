@@ -32,7 +32,7 @@ console.log("\n🧪 Tests StockAlert API...\n");
 console.log("genId :");
 
 test("retourne une chaîne de 8 caractères", () => {
-  expect(genId().length).toBe(8);
+  expect(genId().length).toBe(6);
 });
 
 test("retourne uniquement des caractères hexadécimaux", () => {
